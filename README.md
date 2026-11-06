@@ -3,7 +3,7 @@
 Site estático (HTML, CSS e JS puros) redesenhado com o design system **Café & Colagem**.
 
 - `index.html`, `sinais.html`, `cuidados.html`, `abordagem.html`, `sobre.html`, `contato.html`
-- `styles.css`: tokens do Café & Colagem (cores, tipos, raios, sombras, rotações) em escala web (canvas 1080 ÷ 2,5), tema creme e tema cacau (modo escuro automático)
+- `styles.css`: tokens do Café & Colagem (cores, tipos, raios, sombras, rotações) em escala web (canvas 1080 ÷ 2,5), tema creme fixo (o tema cacau só entra com `data-theme="dark"` no `<html>`)
 - `site.js`: menu mobile, atalho fixo de WhatsApp no celular e barra de leitura
 - `assets/`: fotos e logotipo originais; `favicon.svg` refeito com o brilho do sistema
 

@@ -76,21 +76,6 @@
   color-scheme: light;
 }
 
-/* tema cacau: troca só os neutros */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --surface: #231712;
-    --surface-raised: #33221a;
-    --ink: #fbf3e0;
-    --ink-muted: #cdbba3;
-    --hairline: #4a3326;
-    --accent-ink: var(--matcha);
-    --shadow-polaroid: 0 24px 48px #000000a6, 0 3px 6px #00000080;
-    --shadow-sticker: 0 8px 18px #00000099;
-    --shadow-ui: 0 14px 36px #000000b3, 0 0 0 1px #fbf3e01f;
-    color-scheme: dark;
-  }
-}
 :root[data-theme="dark"] {
   --surface: #231712;
   --surface-raised: #33221a;
@@ -225,9 +210,6 @@ main:focus { outline: none; }
 .site-header { display: flex; align-items: center; gap: 24px; min-height: var(--header-h); }
 .brand { flex: none; display: block; }
 .brand img { width: 168px; height: auto; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .brand img { filter: brightness(0) invert(94%) sepia(12%) saturate(420%) hue-rotate(350deg); }
-}
 :root[data-theme="dark"] .brand img { filter: brightness(0) invert(94%) sepia(12%) saturate(420%) hue-rotate(350deg); }
 
 .nav { display: flex; align-items: center; gap: 4px; margin-inline: auto; }
